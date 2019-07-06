@@ -35,6 +35,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.Salir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,12 +117,24 @@
             this.label6.Text = "Mayo_Agosto 2019";
             this.label6.Click += new System.EventHandler(this.Label6_Click);
             // 
+            // Salir
+            // 
+            this.Salir.ForeColor = System.Drawing.Color.Black;
+            this.Salir.Location = new System.Drawing.Point(480, 444);
+            this.Salir.Name = "Salir";
+            this.Salir.Size = new System.Drawing.Size(123, 39);
+            this.Salir.TabIndex = 8;
+            this.Salir.Text = "Salida";
+            this.Salir.UseVisualStyleBackColor = true;
+            this.Salir.Click += new System.EventHandler(this.Salir_Click);
+            // 
             // AcercaDe
             // 
             this.AccessibleName = "";
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(675, 512);
+            this.Controls.Add(this.Salir);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -148,5 +161,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button Salir;
     }
 }
